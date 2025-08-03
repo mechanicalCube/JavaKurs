@@ -1,11 +1,10 @@
 public class UserTest {
     public static void main(String[] args) {
-        User user = new User();
-        User user1 = new User("hello", "Piotrek");
-        user.userName = "Bartek";
-        user.password = "testTest";
+       // User user = new User();
+        User user = new User("Tomek", "Piotrek");
 
-        
+        System.out.println(user.userName);
+        System.out.println(user.password);
         user.sayHello();
     }
 
