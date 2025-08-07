@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class StudentChecker {
     public static void main(String[] args) {
+
+        String uczelania = Student.nazwaUczelni;
+
+
         Student adam = new Student();
         Student kasia = new Student();
         Student piotr = new Student();
@@ -10,6 +14,7 @@ public class StudentChecker {
         adam.numerIndeksu = 2121223;
         adam.emial = "adam@gmial.com";
         adam.nick = "AdamiskiA";
+        String uczelaniaAdama = adam.nazwaUczelni;
 
         kasia.imie = "Kasia";
         kasia.nazwisko = "Adamski";

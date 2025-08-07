@@ -4,6 +4,7 @@ public class Student {
     public String nick;
     public String emial;
     public  int numerIndeksu;
+    public static String nazwaUczelni = "AGH";
 
     public void  przedstawSie(){
         System.out.println( "Nazywam się " + imie + " " + nazwisko);
