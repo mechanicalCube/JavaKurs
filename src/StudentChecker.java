@@ -4,6 +4,7 @@ public class StudentChecker {
     public static void main(String[] args) {
 
         String uczelania = Student.nazwaUczelni;
+        Student.infoUczelnia();
 
 
         Student adam = new Student();

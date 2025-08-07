@@ -4,7 +4,7 @@ public class Student {
     public String nick;
     public String emial;
     public  int numerIndeksu;
-    public static String nazwaUczelni = "AGH";
+    public static String nazwaUczelni = "AGH po zmanie";
 
     public void  przedstawSie(){
         System.out.println( "Nazywam się " + imie + " " + nazwisko);
@@ -20,5 +20,14 @@ public class Student {
 
     public void podajEmail(){
         System.out.println( "Mój email to: " + emial);
+    }
+
+    public static void infoUczelnia(){
+        System.out.println("moje uczelani to " + nazwaUczelni);
+        durga();
+    }
+
+    public static void durga(){
+        System.out.println("Jestem drugą metodą");
     }
 }
