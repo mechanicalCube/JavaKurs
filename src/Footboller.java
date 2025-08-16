@@ -1,10 +1,18 @@
 public class Footboller  extends Person {
 
+
     public String footballClub;
 
+    public Footboller(String name, int age, String footballClub) {
+        super(name, age);
+        this.footballClub = footballClub;
+        System.out.println("Jestem w konstrukorze Footballer");
+
+
+    }
+
+
     public void palyFootball(){
-        eat();
-        walk();
         System.out.println("I am plaing football " + footballClub);
     }
 
