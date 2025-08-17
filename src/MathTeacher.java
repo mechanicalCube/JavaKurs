@@ -8,6 +8,9 @@ public class MathTeacher extends Person {
         this.school = school;
     }
 
+    public void walk(){
+        System.out.println("szybko chodzę");
+    }
     public void techMatch(){
         System.out.println("I am plaing Match!");
     }

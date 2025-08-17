@@ -10,7 +10,9 @@ public class Footboller  extends Person {
 
 
     }
-
+public void eat(){
+    System.out.println("Lubię zdrowę jedzenie");
+}
 
     public void palyFootball(){
         System.out.println("I am plaing football " + footballClub);
