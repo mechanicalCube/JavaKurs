@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class User {
 
     public String userName;
@@ -23,5 +21,17 @@ public class User {
 
     public  void sayHello(){
         System.out.println("hello my name is: " + userName);
+    }
+
+    public static class UserTest {
+        public static void main(String[] args) {
+           // User user = new User();
+            User user = new User("Tomek", "Piotrek");
+
+            System.out.println(user.userName);
+            System.out.println(user.password);
+            user.sayHello();
+        }
+
     }
 }
