@@ -1,4 +1,4 @@
-package pages;
+import pages.App;
 
 public class IPhoneApp extends App {
 
