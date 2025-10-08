@@ -11,6 +11,8 @@ public class MathTeacher extends Person {
     }
 
     public void walk(){
+
+        super.walk();
         System.out.println("szybko chodzę");
     }
     public void techMatch(){

@@ -7,8 +7,8 @@ public class AppChecker {
         android.iAndroidInfo();
         android.appInfo();
 
-        IPhoneApp iphone = new IPhoneApp("Kalkulator");
-        iphone.iPhoneInfo();
-        iphone.appInfo();
+      //  IPhoneApp iphone = new IPhoneApp("Kalkulator");
+     //   iphone.iPhoneInfo();
+     //   iphone.appInfo();
     }
 }
