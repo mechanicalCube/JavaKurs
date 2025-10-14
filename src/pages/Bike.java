@@ -13,7 +13,8 @@ public class Bike implements Vehicle {
     }
 
     @Override
-    public void info() {
+    public String info() {
+
         return  "Rower";
     }
 

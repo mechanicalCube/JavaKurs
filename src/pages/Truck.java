@@ -11,4 +11,9 @@ public class Truck implements Vehicle{
         System.out.println("Hamuje ciężarówką!");
 
     }
+
+    @Override
+    public String info() {
+        return "";
+    }
 }
