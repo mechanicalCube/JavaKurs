@@ -2,7 +2,7 @@ package drivers;
 
 public class WebDriverTest {
     public static void main(String[] args) {
-        ChormeDriver chrom = new ChormeDriver();
+        ChromeDriver chrom = new ChromeDriver();
         chrom.get();
         chrom.findElementBy();
 

@@ -1,10 +1,10 @@
 package drivers;
 
-public class ChormeDriver implements WebDriver{
+public class ChromeDriver implements WebDriver {
 
     @Override
     public void get() {
-        System.out.println("otwieram przeglądarkę chorm");
+        System.out.println("otwieram przeglądarkę Chrom");
 
     }
 
