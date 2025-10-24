@@ -1,3 +1,5 @@
+package pages;
+
 public class ReadOnly {
     private String name = "Bartek";
 
