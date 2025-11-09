@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class WriteFile {
     public static void main(String[] args) throws IOException {
-        FileWriter file = new FileWriter("text.txt");
+        FileWriter file = new FileWriter("test.txt");
         file.write("sam tekst");
         file.close();
     }
