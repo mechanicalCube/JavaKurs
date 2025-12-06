@@ -2,18 +2,30 @@ package drivers;
 
 public class WebDriverTest2 {
 
+
     public static void main(String[] args) {
-        WebDriver driver = getDriver( "chrome33");
+
+        DriverType[] driverTypes = DriverType.values();
+        for (int i=0; i<driverTypes.length; i++){
+            System.out.println(driverTypes[i].name);
+            System.out.println(driverTypes[i].path);
+        }
+
+        WebDriver driver = getDriver(DriverType.FIREFOX);
         driver.get();
         driver.findElementBy();
     }
-    private static WebDriver getDriver(String name) {
-        if (name.equals("chrome")) {
+
+
+    private static WebDriver getDriver(DriverType type) {
+        if (type.name.equals("chrome")) {
+            System.out.println(type.path);
             return new ChromeDriver();
-        } else if (name.equals("firefox")) {
+        } else if (type.name.equals("firefox")) {
+            System.out.println(type.path);
             return new FirefoxDriver();
         }
-        throw  new NoValidBrowserName("no valid brower name");
+        return null;
     }
 }
 
